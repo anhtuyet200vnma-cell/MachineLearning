@@ -44,17 +44,3 @@ print(export_text(
     feature_names=["Cuong_do_mau"],
     decimals=2
 ))               
-from sklearn.metrics import confusion_matrix, classification_report
-
-print("\nMa trận nhầm lẫn:")
-print(confusion_matrix(y_test, y_pred, labels=[1, 2, 3]))
-
-print("\nCác chỉ số đánh giá:")
-print(classification_report(
-    y_test,
-    y_pred,
-    labels=[1, 2, 3],
-    target_names=["Nhóm 1", "Nhóm 2", "Nhóm 3"],
-    digits=4,
-    zero_division=0
-))
