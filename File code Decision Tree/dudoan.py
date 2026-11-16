@@ -14,6 +14,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     stratify=y
 )
 
+                                
 model = DecisionTreeClassifier(
     criterion="gini",
     max_depth=2,
@@ -21,6 +22,7 @@ model = DecisionTreeClassifier(
     random_state=42
 )
 model.fit(X_train, y_train)
+
 
 mau_moi = [
     [3.00],
