@@ -1,0 +1,22 @@
+{
+  "environment": {
+    "Python": "3.10.16",
+    "scikit-learn": "1.4.0",
+    "pandas": "2.0.0",
+    "NumPy": "1.26.3"
+  },
+  "run_date_utc": "2026-11-17T05:24:29.424867+00:00",
+  "bootstrap": {
+    "seed": 42,
+    "resamples": 1000,
+    "pca10_mean_accuracy": 0.974578947368421,
+    "ci": [
+      0.9473684210526315,
+      1.0
+    ],
+    "diff_vs_original_95_ci": [
+      -0.02631578947368418,
+      0.0
+    ]
+  }
+}
