@@ -1,0 +1,15 @@
+===== 5-FOLD CROSS-VALIDATION (TRAIN n = 455) =====
+  Method  Dimensions  Mean Accuracy    Std  Mean Malignant Recall  Mean Malignant F1
+Original          30         0.9780 0.0110                 0.9647             0.9703
+     PCA           1         0.9143 0.0181                 0.8529             0.8814
+     PCA           2         0.9495 0.0241                 0.9235             0.9308
+     PCA           3         0.9538 0.0181                 0.9353             0.9382
+     PCA           5         0.9758 0.0092                 0.9647             0.9677
+     PCA           6         0.9736 0.0125                 0.9647             0.9649
+     PCA           7         0.9714 0.0098                 0.9588             0.9619
+     PCA          10         0.9824 0.0060                 0.9647             0.9761
+     PCA          15         0.9780 0.0135                 0.9588             0.9699
+
+Best q by mean CV accuracy: 10 (0.9824 +/- 0.0060)
+One-standard-error rule (SE = 0.0027): smallest q within 1 SE of the best = 10
+Saved JSON: /home/claude/pca_fixed/outputs/results_B.json

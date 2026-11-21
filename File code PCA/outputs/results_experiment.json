@@ -1,0 +1,16 @@
+{
+  "environment": {
+    "Python": "3.12.3",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "NumPy": "2.5.4"
+  },
+  "run_date_utc": "2026-11-21T07:38:28.336334+00:00",
+  "bartlett_chi2": 31590.88353464571,
+  "bartlett_df": 435,
+  "bartlett_log10_p": -6364.053941882772,
+  "kmo": 0.832062792495481,
+  "kaiser_q": 6,
+  "horn_q": 5,
+  "unscaled_pc1_dominant_feature": "worst area"
+}

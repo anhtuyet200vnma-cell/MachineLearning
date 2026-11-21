@@ -1,0 +1,4 @@
+Train / test samples : 455 / 114
+CEV(q = 10)          : 95.27%
+Test accuracy        : 97.37%
+Malignant recall     : 97.62%

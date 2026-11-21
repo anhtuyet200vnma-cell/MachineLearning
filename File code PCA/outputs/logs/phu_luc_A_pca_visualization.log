@@ -1,0 +1,7 @@
+Rules: Kaiser q = 6, Horn q = 5, 90% CEV q = 7, 95% CEV q = 10
+Biplot arrows: ['mean concave points', 'mean concavity', 'mean fractal dimension', 'fractal dimension error']
+Top |loadings| (PC1, PC2, PC3):
+  PC1: [('mean concave points', 0.954), ('mean concavity', 0.941), ('worst concave points', 0.912), ('mean compactness', 0.884)]
+  PC2: [('mean fractal dimension', 0.869), ('fractal dimension error', 0.664), ('worst fractal dimension', 0.653), ('mean radius', -0.569)]
+  PC3: [('texture error', 0.637), ('smoothness error', 0.513), ('symmetry error', 0.488), ('radius error', 0.469)]
+Saved figures in figures/

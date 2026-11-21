@@ -1,0 +1,29 @@
+===== REPEATED STRATIFIED SPLITS (SEEDS 0..11) =====
+ Random State  Original_30D_Acc  PCA_10D_Acc  PCA_10D_CEV (%)  Original_30D_Mal_Recall  PCA_10D_Mal_Recall
+            0            0.9825       0.9737            95.43                   0.9524              0.9286
+            1            0.9912       0.9825            95.36                   0.9762              0.9762
+            2            0.9825       0.9912            95.19                   0.9524              0.9762
+            3            0.9737       0.9825            95.42                   0.9524              0.9762
+            4            0.9737       0.9649            95.32                   0.9524              0.9524
+            5            0.9825       0.9737            95.22                   1.0000              1.0000
+            6            0.9912       0.9825            95.32                   0.9762              0.9762
+            7            0.9649       0.9825            95.60                   0.9762              0.9762
+            8            0.9737       0.9825            95.19                   0.9762              0.9762
+            9            1.0000       1.0000            94.98                   1.0000              1.0000
+           10            0.9649       0.9825            95.18                   0.9762              0.9762
+           11            0.9561       0.9561            95.44                   0.9048              0.9048
+
+Summary:
+  Original_30D_Mean_Acc: 0.9781
+  Original_30D_Std_Acc: 0.0127
+  PCA_10D_Mean_Acc: 0.9795
+  PCA_10D_Std_Acc: 0.0114
+  PCA_10D_Mean_CEV (%): 95.3042
+  Original_30D_Mean_Mal_Recall: 0.9663
+  PCA_10D_Mean_Mal_Recall: 0.9683
+  PCA_10D_Min_Mal_Recall: 0.9048
+  Mean_Diff_PCA_minus_Original: 0.0015
+  Seeds_PCA_better/equal/worse: [5, 2, 5]
+  paired_t_p: 0.6380
+  wilcoxon_p: 0.7715
+Saved JSON: /home/claude/pca_fixed/outputs/results_D.json

@@ -1,0 +1,33 @@
+{
+  "environment": {
+    "Python": "3.12.3",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "NumPy": "2.5.4"
+  },
+  "run_date_utc": "2026-11-21T07:38:38.802681+00:00",
+  "bootstrap": {
+    "seed": 42,
+    "resamples": 1000,
+    "observed_accuracy_pca10": 0.9736842105263158,
+    "observed_accuracy_original": 0.9824561403508771,
+    "pca10_mean_accuracy": 0.974578947368421,
+    "pca10_ci": [
+      0.9473684210526315,
+      1.0
+    ],
+    "original_ci": [
+      0.956140350877193,
+      1.0
+    ],
+    "diff_95_ci": [
+      -0.02631578947368418,
+      0.0
+    ],
+    "mcnemar": {
+      "orig_right_pca_wrong": 1,
+      "orig_wrong_pca_right": 0,
+      "p_exact": 1.0
+    }
+  }
+}

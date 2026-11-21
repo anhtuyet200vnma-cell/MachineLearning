@@ -1,0 +1,7 @@
+===== BOOTSTRAP RESULTS (test set n = 114, B = 1000) =====
+Observed accuracy: PCA q=10 = 0.9737 | Original 30D = 0.9825
+Bootstrap mean accuracy (PCA q=10): 0.9746 | 95% percentile CI: [0.9474, 1.0000]
+Bootstrap mean accuracy (Original): 0.9833 | 95% percentile CI: [0.9561, 1.0000]
+Difference (PCA10 - Original) 95% CI: [-0.0263, 0.0000] | mean = -0.0087
+Discordant pairs: original-correct/PCA-wrong = 1, original-wrong/PCA-correct = 0 | exact McNemar p = 1.0000
+Saved JSON: /home/claude/pca_fixed/outputs/results_C.json

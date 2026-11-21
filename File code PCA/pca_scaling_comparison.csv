@@ -1,0 +1,11 @@
+Component,Unscaled_EVR (%),Unscaled_CEV (%),Scaled_Eigenvalue,Scaled_EVR (%),Scaled_CEV (%),Horn_95pct_Threshold,Kaiser_Pass,Horn_Pass
+PC1,98.12,98.12,13.324,44.41,44.41,1.5768,True,True
+PC2,1.72,99.84,5.6834,18.94,63.36,1.4975,True,True
+PC3,0.14,99.98,2.863,9.54,72.9,1.4275,True,True
+PC4,0.01,99.99,2.0174,6.72,79.63,1.3748,True,True
+PC5,0.01,100.0,1.6553,5.52,85.14,1.3339,True,True
+PC6,0.0,100.0,1.1804,3.93,89.08,1.2964,True,False
+PC7,0.0,100.0,0.6545,2.18,91.26,1.2561,False,False
+PC8,0.0,100.0,0.475,1.58,92.84,1.2293,False,False
+PC9,0.0,100.0,0.3836,1.28,94.12,1.1939,False,False
+PC10,0.0,100.0,0.3436,1.15,95.27,1.1633,False,False

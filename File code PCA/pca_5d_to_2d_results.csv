@@ -1,0 +1,6 @@
+Component,Eigenvalue,EVR (%),CEV (%),Decision
+PC1,3.4805,69.61,69.61,Retain
+PC2,1.2416,24.83,94.44,Retain
+PC3,0.2639,5.28,99.72,Discard
+PC4,0.0137,0.27,99.99,Discard
+PC5,0.0003,0.01,100.0,Discard

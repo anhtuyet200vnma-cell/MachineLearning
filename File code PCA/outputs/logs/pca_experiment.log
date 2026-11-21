@@ -1,0 +1,58 @@
+===== 1. BARTLETT, KMO, KAISER AND HORN PARALLEL ANALYSIS =====
+Bartlett chi2 = 31590.9 (df=435, log10 p = -6364) | KMO = 0.8321
+Kaiser rule (lambda > 1): q = 6 | Horn parallel analysis (95th pct): q = 5
+
+===== 2. UNSCALED (COVARIANCE) VS SCALED (CORRELATION) PCA =====
+Feature dominating unscaled PC1: worst area (|weight| = 0.8502)
+Component  Unscaled_EVR (%)  Unscaled_CEV (%)  Scaled_Eigenvalue  Scaled_EVR (%)  Scaled_CEV (%)  Horn_95pct_Threshold  Kaiser_Pass  Horn_Pass
+      PC1             98.12             98.12            13.3240           44.41           44.41                1.5768         True       True
+      PC2              1.72             99.84             5.6834           18.94           63.36                1.4975         True       True
+      PC3              0.14             99.98             2.8630            9.54           72.90                1.4275         True       True
+      PC4              0.01             99.99             2.0174            6.72           79.63                1.3748         True       True
+      PC5              0.01            100.00             1.6553            5.52           85.14                1.3339         True       True
+      PC6              0.00            100.00             1.1804            3.93           89.08                1.2964         True      False
+      PC7              0.00            100.00             0.6545            2.18           91.26                1.2561        False      False
+      PC8              0.00            100.00             0.4750            1.58           92.84                1.2293        False      False
+      PC9              0.00            100.00             0.3836            1.28           94.12                1.1939        False      False
+     PC10              0.00            100.00             0.3436            1.15           95.27                1.1633        False      False
+
+===== 3. 5D -> 2D REDUCTION (5 MORPHOLOGICAL FEATURES) =====
+Inputs: ['mean radius', 'mean perimeter', 'mean area', 'mean compactness', 'mean smoothness']
+Component  Eigenvalue  EVR (%)  CEV (%) Decision
+      PC1      3.4805    69.61    69.61   Retain
+      PC2      1.2416    24.83    94.44   Retain
+      PC3      0.2639     5.28    99.72  Discard
+      PC4      0.0137     0.27    99.99  Discard
+      PC5      0.0003     0.01   100.00  Discard
+Eigenvectors (columns = PCs):
+                     PC1    PC2    PC3    PC4    PC5
+mean radius       0.512 -0.258 -0.113 -0.446 -0.678
+mean perimeter    0.520 -0.214 -0.050 -0.381  0.732
+mean area         0.511 -0.250 -0.153  0.808 -0.026
+mean compactness  0.392  0.498  0.770  0.050 -0.055
+mean smoothness   0.231  0.760 -0.607 -0.026  0.003
+
+===== 4. HAND-WORKED 2D -> 1D EXAMPLE (TRACE AND ECKART-YOUNG CHECK) =====
+mean: [4.  3.4] | S = [[2.5, 2.5], [2.5, 2.8000000000000003]] | trace = 5.3
+lambda1 = 5.1545 (EVR 97.25%), lambda2 = 0.1455 (EVR 2.75%)
+a1 = [0.6856 0.728 ] | slope = 1.0618
+scores z = [-3.12, -0.98, -0.29, 1.85, 2.54]
+squared errors = [0.036, 0.206, 0.075, 0.136, 0.129] | sum = 0.582
+MSE_perp = 0.1455  ==  lambda2 = 0.1455  -> Eckart-Young identity verified
+
+===== 5. BENCHMARK: LOGISTIC REGRESSION / RBF-SVM / RANDOM FOREST =====
+Classifier  Logistic Regression  Random Forest  SVM (RBF)
+Dimensions                                               
+1                        0.9123         0.8596     0.9123
+2                        0.9474         0.9211     0.9474
+3                        0.9211         0.9123     0.9474
+5                        0.9561         0.9123     0.9474
+6                        0.9561         0.9211     0.9561
+7                        0.9474         0.9211     0.9561
+10                       0.9737         0.9386     0.9737
+15                       0.9649         0.9211     0.9825
+30                       0.9825         0.9561     0.9825
+Logistic Regression  | 30D acc 98.25% (recall 97.62%) -> PCA q=10 acc 97.37% (recall 97.62%)
+SVM (RBF)            | 30D acc 98.25% (recall 97.62%) -> PCA q=10 acc 97.37% (recall 97.62%)
+Random Forest        | 30D acc 95.61% (recall 92.86%) -> PCA q=10 acc 93.86% (recall 92.86%)
+Saved JSON: /home/claude/pca_fixed/outputs/results_experiment.json

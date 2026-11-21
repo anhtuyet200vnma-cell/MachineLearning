@@ -1,0 +1,125 @@
+{
+  "environment": {
+    "Python": "3.12.3",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "NumPy": "2.5.4"
+  },
+  "run_date_utc": "2026-11-21T07:38:41.614804+00:00",
+  "summary": {
+    "Original_30D_Mean_Acc": 0.9780701754385966,
+    "Original_30D_Std_Acc": 0.012684189569845976,
+    "PCA_10D_Mean_Acc": 0.97953216374269,
+    "PCA_10D_Std_Acc": 0.011426999075068932,
+    "PCA_10D_Mean_CEV (%)": 95.30416666666667,
+    "Original_30D_Mean_Mal_Recall": 0.9662698412698413,
+    "PCA_10D_Mean_Mal_Recall": 0.9682539682539683,
+    "PCA_10D_Min_Mal_Recall": 0.9047619047619048,
+    "Mean_Diff_PCA_minus_Original": 0.0014619883040935533,
+    "Seeds_PCA_better/equal/worse": [
+      5,
+      2,
+      5
+    ],
+    "paired_t_p": 0.638029472437108,
+    "wilcoxon_p": 0.771484375
+  },
+  "seeds": [
+    {
+      "Random State": 0,
+      "Original_30D_Acc": 0.9824561403508771,
+      "PCA_10D_Acc": 0.9736842105263158,
+      "PCA_10D_CEV (%)": 95.43,
+      "Original_30D_Mal_Recall": 0.9523809523809523,
+      "PCA_10D_Mal_Recall": 0.9285714285714286
+    },
+    {
+      "Random State": 1,
+      "Original_30D_Acc": 0.9912280701754386,
+      "PCA_10D_Acc": 0.9824561403508771,
+      "PCA_10D_CEV (%)": 95.36,
+      "Original_30D_Mal_Recall": 0.9761904761904762,
+      "PCA_10D_Mal_Recall": 0.9761904761904762
+    },
+    {
+      "Random State": 2,
+      "Original_30D_Acc": 0.9824561403508771,
+      "PCA_10D_Acc": 0.9912280701754386,
+      "PCA_10D_CEV (%)": 95.19,
+      "Original_30D_Mal_Recall": 0.9523809523809523,
+      "PCA_10D_Mal_Recall": 0.9761904761904762
+    },
+    {
+      "Random State": 3,
+      "Original_30D_Acc": 0.9736842105263158,
+      "PCA_10D_Acc": 0.9824561403508771,
+      "PCA_10D_CEV (%)": 95.42,
+      "Original_30D_Mal_Recall": 0.9523809523809523,
+      "PCA_10D_Mal_Recall": 0.9761904761904762
+    },
+    {
+      "Random State": 4,
+      "Original_30D_Acc": 0.9736842105263158,
+      "PCA_10D_Acc": 0.9649122807017544,
+      "PCA_10D_CEV (%)": 95.32,
+      "Original_30D_Mal_Recall": 0.9523809523809523,
+      "PCA_10D_Mal_Recall": 0.9523809523809523
+    },
+    {
+      "Random State": 5,
+      "Original_30D_Acc": 0.9824561403508771,
+      "PCA_10D_Acc": 0.9736842105263158,
+      "PCA_10D_CEV (%)": 95.22,
+      "Original_30D_Mal_Recall": 1.0,
+      "PCA_10D_Mal_Recall": 1.0
+    },
+    {
+      "Random State": 6,
+      "Original_30D_Acc": 0.9912280701754386,
+      "PCA_10D_Acc": 0.9824561403508771,
+      "PCA_10D_CEV (%)": 95.32,
+      "Original_30D_Mal_Recall": 0.9761904761904762,
+      "PCA_10D_Mal_Recall": 0.9761904761904762
+    },
+    {
+      "Random State": 7,
+      "Original_30D_Acc": 0.9649122807017544,
+      "PCA_10D_Acc": 0.9824561403508771,
+      "PCA_10D_CEV (%)": 95.6,
+      "Original_30D_Mal_Recall": 0.9761904761904762,
+      "PCA_10D_Mal_Recall": 0.9761904761904762
+    },
+    {
+      "Random State": 8,
+      "Original_30D_Acc": 0.9736842105263158,
+      "PCA_10D_Acc": 0.9824561403508771,
+      "PCA_10D_CEV (%)": 95.19,
+      "Original_30D_Mal_Recall": 0.9761904761904762,
+      "PCA_10D_Mal_Recall": 0.9761904761904762
+    },
+    {
+      "Random State": 9,
+      "Original_30D_Acc": 1.0,
+      "PCA_10D_Acc": 1.0,
+      "PCA_10D_CEV (%)": 94.98,
+      "Original_30D_Mal_Recall": 1.0,
+      "PCA_10D_Mal_Recall": 1.0
+    },
+    {
+      "Random State": 10,
+      "Original_30D_Acc": 0.9649122807017544,
+      "PCA_10D_Acc": 0.9824561403508771,
+      "PCA_10D_CEV (%)": 95.18,
+      "Original_30D_Mal_Recall": 0.9761904761904762,
+      "PCA_10D_Mal_Recall": 0.9761904761904762
+    },
+    {
+      "Random State": 11,
+      "Original_30D_Acc": 0.956140350877193,
+      "PCA_10D_Acc": 0.956140350877193,
+      "PCA_10D_CEV (%)": 95.44,
+      "Original_30D_Mal_Recall": 0.9047619047619048,
+      "PCA_10D_Mal_Recall": 0.9047619047619048
+    }
+  ]
+}
