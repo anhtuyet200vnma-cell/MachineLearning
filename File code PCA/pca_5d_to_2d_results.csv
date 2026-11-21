@@ -1,6 +1,0 @@
-Component,Eigenvalue,EVR (%),CEV (%),Decision
-PC1,3.4881,69.61,69.61,Giữ lại (Cốt lõi)
-PC2,1.2444,24.83,94.44,Giữ lại (Cốt lõi)
-PC3,0.2645,5.28,99.72,Loại bỏ (Nhiễu)
-PC4,0.0138,0.27,99.99,Loại bỏ (Nhiễu)
-PC5,0.0003,0.01,100.0,Loại bỏ (Nhiễu)
