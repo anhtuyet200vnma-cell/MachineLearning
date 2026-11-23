@@ -1,0 +1,40 @@
+{
+  "n_features": 1,
+  "root": {
+    "label": 2,
+    "n": 142,
+    "gini": 0.6577068042055148,
+    "left": {
+      "label": 2,
+      "n": 51,
+      "gini": 0.07535563244905807,
+      "left": null,
+      "right": null,
+      "feature": 0,
+      "threshold": 3.4600000381469727
+    },
+    "right": {
+      "label": 1,
+      "n": 91,
+      "gini": 0.5733607052288371,
+      "left": {
+        "label": 1,
+        "n": 70,
+        "gini": 0.5359183673469388,
+        "left": null,
+        "right": null
+      },
+      "right": {
+        "label": 3,
+        "n": 21,
+        "gini": 0.17233560090702937,
+        "left": null,
+        "right": null
+      },
+      "feature": 0,
+      "threshold": 7.400000095367432
+    },
+    "feature": 0,
+    "threshold": 3.819999933242798
+  }
+}
