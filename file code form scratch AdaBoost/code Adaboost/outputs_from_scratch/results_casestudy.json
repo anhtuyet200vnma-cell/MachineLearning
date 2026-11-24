@@ -1,0 +1,54 @@
+{
+  "implementation": "Python + NumPy: weighted Gini stump and binary SAMME",
+  "environment": {
+    "Python": "3.15.2",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.1",
+    "NumPy": "2.5.4"
+  },
+  "run_date_utc": "2026-11-24T11:29:19.714935+00:00",
+  "sha256": "b1ef93de71f97714d3d7d4f58fc9f718da7bbc8ac8a150eff2778616a8097b12",
+  "rows": 4601,
+  "data_path": "C:\\code\\python\\code Adaboost\\spambase.data",
+  "data": {
+    "features": 57,
+    "train": 3680,
+    "test": 921,
+    "test_classes": [
+      558,
+      363
+    ],
+    "group_overlap": 0
+  },
+  "config": {
+    "n_estimators": 100,
+    "learning_rate": 0.5,
+    "max_depth": 1,
+    "split_seed": 42
+  },
+  "metrics": {
+    "accuracy": 0.9337676438653637,
+    "precision": 0.9415204678362573,
+    "recall": 0.8870523415977961,
+    "f1": 0.9134751773049645,
+    "confusion_matrix": [
+      [
+        538,
+        20
+      ],
+      [
+        41,
+        322
+      ]
+    ]
+  },
+  "accepted_learners": 100,
+  "stop_reason": "maximum_rounds",
+  "first_round": {
+    "round": 1,
+    "error": 0.20597826086956533,
+    "alpha": 0.6746701033341362,
+    "feature": 52,
+    "threshold": 0.0555
+  }
+}
